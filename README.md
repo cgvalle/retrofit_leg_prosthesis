@@ -1,5 +1,7 @@
 # retrofit_leg: EMG-controlled active add-on for a passive transfemoral prosthesis
 
+[![DOI](https://zenodo.org/badge/1382391606.svg)](https://doi.org/10.5281/zenodo.22905685)
+
 Open hardware and software for a **retrofit module that gives a passive prosthetic knee (Ottobock 3R15) active flexion and extension**, driven by surface EMG from the residual limb.
 
 This repository accompanies the manuscript *"From Passive to Active: An EMG-Controlled Add-On Module for Transfemoral Prostheses"*. It contains everything needed to rebuild the prototype that raced at the **CYBATHLON 2024 Powered Leg Prosthesis Race**.
