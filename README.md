@@ -1,6 +1,6 @@
 # Retrofit Leg Prosthesis: EMG-controlled active add-on for a passive transfemoral prosthesis
 
-[![DOI](https://zenodo.org/badge/1382391606.svg)](https://doi.org/10.5281/zenodo.22905783)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22905783.svg)](https://doi.org/10.5281/zenodo.22905783)
 
 Open hardware and software for a **retrofit module that gives a passive prosthetic knee (Ottobock 3R15) active flexion and extension**, driven by surface EMG from the residual limb.
 
