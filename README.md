@@ -1,4 +1,4 @@
-# retrofit_leg: EMG-controlled active add-on for a passive transfemoral prosthesis
+# Retrofit Leg Prosthesis: EMG-controlled active add-on for a passive transfemoral prosthesis
 
 [![DOI](https://zenodo.org/badge/1382391606.svg)](https://doi.org/10.5281/zenodo.22905685)
 
@@ -24,12 +24,6 @@ This repository accompanies the manuscript *"From Passive to Active: An EMG-Cont
 
 ![System architecture](docs/img/system_architecture.png)
 
-**Measured performance (from the paper):**
-- 83.2 % held-out accuracy for the contract/relax classifier.
-- About 4 kg added mass (about 8 kg for the whole prosthesis).
-- About 2.5 h of walking per charge.
-- Completed both CYBATHLON 2024 runs (30 points) with no hardware failure.
-- In a single-participant treadmill test at 1 km/h, no increase in energy expenditure versus the participant's passive prosthesis.
 
 ## Repository layout
 
@@ -84,6 +78,3 @@ Funded by ANID under grant CPS-RTC CIA250016.
 ## License
 
 MIT: covers the software, hardware design files and documentation, provided "as is". See [LICENSE](LICENSE) and the medical [DISCLAIMER](DISCLAIMER.md).
-# retrofit_leg
-# retrofit_leg
-# retrofit_leg_prosthesis
