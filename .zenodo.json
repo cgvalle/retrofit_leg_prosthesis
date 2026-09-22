@@ -1,0 +1,21 @@
+{
+  "title": "retrofit_leg: EMG-controlled active add-on module for passive transfemoral prostheses",
+  "description": "Open hardware and software to rebuild an add-on module that gives a passive prosthetic knee (Ottobock 3R15) active flexion and extension, driven by surface EMG from the residual limb. Includes mechanical CAD, the Power Distribution Board (Gerbers, EasyEDA sources, BOM), the Raspberry Pi control software (EMG acquisition, Random Forest intent classifier, PID knee controller), motor-torque sizing and the metabolic-analysis notebook. Research prototype, not a medical device.",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "mit",
+  "creators": [
+    {"name": "retrofit_leg contributors"}
+  ],
+  "keywords": [
+    "transfemoral prosthesis",
+    "active knee",
+    "retrofit",
+    "surface electromyography",
+    "open-source hardware",
+    "Raspberry Pi",
+    "CYBATHLON"
+  ],
+  "grants": [],
+  "notes": "Funded by ANID under grant CPS-RTC CIA250016."
+}

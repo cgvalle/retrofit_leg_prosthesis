@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+*.swp
+
+# Participant data and trained models are never committed
+software/recordings/*.npy
+software/model.pkl
+analysis/data/
+*.c3d

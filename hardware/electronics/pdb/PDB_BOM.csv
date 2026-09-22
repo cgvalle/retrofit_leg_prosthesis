@@ -1,0 +1,19 @@
+designator,qty,part,value_or_mpn,footprint,notes
+U1,1,LTC3780 buck-boost module,LTC3780 module,module,Regulated 12 V motor/logic rail from 10-12.6 V battery; set output to 12.0 V with trimmer before connecting loads
+U2,1,LM2596 step-down module,LM2596 module,module,5 V logic rail (Raspberry Pi 4 + AS5600 + BTS7960 logic); fed from the regulated 12 V rail; set to 5.0-5.1 V before connecting the Pi
+U4,1,BTS7960 H-bridge module,BTS7960 (IBT-2) module,module,Motor driver; RPWM/LPWM from Pi GPIO
+RLY1,1,Relay 5 V coil SPDT,SRD-05VDC-SL-C,RELAY-TH_SRD-XXVDC-XL-C,Normally-open contact in the 12 V motor path; opened by the E-stop button
+C1,1,Electrolytic capacitor,470 uF 25 V (25ZLH470MEFCT78X16),CAP-TH_BD8.0-P3.50,Bulk on 5 V rail
+C2,1,Electrolytic capacitor,470 uF 25 V (25ZLH470MEFCT78X16),CAP-TH_BD8.0-P3.50,Bulk on 5 V rail
+U8,1,Rectifier diode,1N4007,DO-41,Flyback / relay coil protection
+U9,1,Rectifier diode,1N4007,DO-41,Series blocking diode on 12 V motor line
+R1-R4,4,Resistor,1 kOhm 1%,THT,Pull-downs on RPWM / R_IS / LPWM / L_IS (safe state at boot)
+R5-R6,2,Resistor,1 kOhm 1%,THT,Pull-ups to 5 V on R_EN / L_EN (bridge always enabled)
+R7-R8,2,Resistor,1 kOhm 1%,THT,Relay coil drive network (E-stop)
+CN1,1,JST XH 2-pin,B2B-XH-A-M,2.5 mm,Battery input (+12 V / GND)
+CN2,1,JST XH 2-pin,B2B-XH-A-M,2.5 mm,12 V out to motor driver
+CN3,1,JST 3-pin,JST3-2.5T-1-3A,2.5 mm,LPWM / L_EN / L_IS
+CN4,1,JST 3-pin,JST3-2.5T-1-3A,2.5 mm,RPWM / R_EN / R_IS
+CN5-CN8,4,JST XH 2-pin,B2B-XH-A-M,2.5 mm,+5 V / GND logic outputs (Pi / encoder / aux)
+CN9,1,JST XH 2-pin,B2B-XH-A-M,2.5 mm,E-stop button in / out (relay coil control)
+U3 U5 U6 U7,4,SMD standoff M2.5,SMTSO2560CTJ,SMD,Module mounting standoffs
