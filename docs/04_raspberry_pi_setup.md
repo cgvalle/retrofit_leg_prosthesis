@@ -28,7 +28,7 @@ With the encoder connected, `i2cdetect -y 1` should show a device at **0x36**.
 ## 3. Install the software
 
 ```bash
-git clone <this repository> retrofit_leg && cd retrofit_leg/software
+git clone https://github.com/cgvalle/retrofit_leg_prosthesis.git && cd retrofit_leg_prosthesis/software
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 pip install -e .
@@ -48,7 +48,7 @@ cd ../python_package && pip install .
 Install Docker ([official instructions for Debian](https://docs.docker.com/engine/install/debian/)), then:
 
 ```bash
-cd retrofit_leg/software
+cd retrofit_leg_prosthesis/software
 docker compose up -d          # starts nanomq on port 1883 (restarts on boot)
 ```
 
